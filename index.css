@@ -1,0 +1,620 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: white;
+}
+
+body {
+  color: black !important;
+  font-family: "Lato", sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.left_box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  width: 20%;
+  background-color: #f7f9fc;
+}
+.scrollable {
+  padding: 0 48px;
+
+  width: 100%;
+}
+
+.right_box {
+  width: 80%;
+  padding: 3.7% 5%;
+
+  display: flex;
+  flex-direction: column;
+}
+.profile {
+  width: 100%;
+  height: 20vh;
+}
+
+.profile_image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.Name_profession {
+  display: flex;
+  flex-direction: column;
+  padding: 15% 0;
+}
+.Name_profession .Name {
+  padding-bottom: 8%;
+}
+.quotation {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  width: 60%;
+}
+
+.Name p {
+  height: 41px;
+}
+.Profession {
+  height: 41px;
+}
+
+.introduction .Name p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 40.4px;
+  color: #2e2e48;
+}
+.Profession p {
+  font-family: "Outfit", sans-serif;
+  font-family: Outfit;
+  font-size: 24.24px;
+  font-weight: 500;
+  line-height: 32.32px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  height: 33px;
+  background: linear-gradient(90deg, #a478e8 0%, #516cf7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.quotation {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 32px 48px;
+  width: 60%;
+  height: 49px;
+  gap: 0px;
+  opacity: 0px; */
+}
+.description {
+  font-family: "Outfit", sans-serif;
+  font-size: 18.18px;
+  font-weight: 500;
+  line-height: 24.24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  background: #47516b;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.saidby {
+  font-family: "DM Sans", sans-serif;
+  font-size: 12.12px;
+  font-weight: 400;
+  line-height: 16.16px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.horizontal_line {
+  display: block !important;
+
+  width: 90%;
+  height: 1.01px;
+
+  background-color: #e2e6ee;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+.individual_contact {
+  display: flex;
+  align-items: center;
+  margin: 24px 0;
+  background: #47516b;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contactdescription {
+  display: flex;
+  flex-direction: column;
+}
+.icon {
+  margin-right: 1rem;
+}
+.contact_address {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18.14px;
+  font-weight: 500;
+  line-height: 18.18px;
+  text-align: left;
+}
+.contact_medium {
+  width: 210.55px;
+  height: 17px;
+  gap: 0px;
+  opacity: 0px;
+
+  font-family: " DM Sans", sans-serif;
+
+  font-size: 12.12px;
+  font-weight: 400;
+  line-height: 16.16px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.contact_address {
+  font-family: "DM Sans", sans-serif;
+
+  font-size: 14.14px;
+  font-weight: 500;
+  line-height: 18.18px;
+  text-align: left;
+}
+.social_icons {
+  width: 32.32px;
+  height: 32.32px;
+  margin-right: 1rem;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.section-header {
+  /* margin-left: -15%; */
+  padding: 10% 0;
+  font-family: "DM Sans";
+  font-size: 12.12px;
+  font-weight: 400;
+  line-height: 16.16px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.latest_project {
+  height: 20%;
+}
+.latest_project h1 {
+  font-family: Outfit;
+  font-size: 24.24px;
+  font-weight: 500;
+  line-height: 32.32px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.project {
+  display: flex;
+
+  padding: 2% 0;
+}
+.firstproject {
+  background-color: #f7f9fc;
+  padding: 24px 24px;
+  display: flex;
+  flex-direction: column;
+}
+.secondProject {
+  background-color: #f7f9fc;
+  padding: 24px 24px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.projectTitle {
+  font-family: "DM Sans";
+  font-size: 16.16px;
+  font-weight: 500;
+  line-height: 20.2px;
+  text-align: left;
+}
+.projectdescription p {
+  font-family: "DM Sans";
+  font-size: 14.14px;
+  font-weight: 400;
+  line-height: 18.18px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.projectlink {
+  margin: 24px 0px;
+  display: flex;
+  align-items: center;
+  background: #516cf7;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Outfit";
+  font-size: 16.16px;
+  font-weight: 600;
+  line-height: 20.2px;
+  text-align: left;
+}
+.logodescription {
+  display: flex;
+  justify-content: space-between;
+}
+.logodescription .logo {
+  margin-right: 1.2rem;
+}
+.Experience h1 {
+  font-family: "Outfit";
+  font-size: 24.24px;
+  font-weight: 500;
+  line-height: 32.32px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.experiencelist {
+  margin-top: 2rem;
+}
+.indiviualexperience {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+}
+.company {
+  width: 30%;
+}
+.company h1 {
+  font-family: "DM Sans";
+  font-size: 10.1px;
+  font-weight: 400;
+  line-height: 13.15px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.position {
+  display: flex;
+  align-items: center;
+}
+
+.positiondetail {
+}
+.positiondetail h1 {
+  font-family: "DM Sans";
+  font-size: 12.12px;
+  font-weight: 400;
+  line-height: 16.16px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.positiondetail h1:last-child {
+  color: red;
+  font-family: "DM Sans";
+  font-size: 14.14px;
+  font-weight: 500;
+  line-height: 18.18px;
+  text-align: left;
+}
+.expdescription {
+  width: 55%;
+  font-family: "DM Sans";
+  font-size: 12.1px;
+  font-weight: 400;
+  line-height: 13.15px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  background: #79819a;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.logoandname {
+  display: flex;
+}
+.educationdescription {
+  display: flex;
+  flex-direction: column;
+}
+.Education {
+  display: flex;
+  justify-content: space-between;
+}
+.educationTitle {
+  font-family: "Outfit";
+  font-size: 24.24px;
+  font-weight: 500;
+  line-height: 32.32px;
+  letter-spacing: 0.01em;
+  text-align: left;
+
+  margin-bottom: 2rem;
+}
+.academy {
+  width: 33%;
+  margin: 0 1rem;
+
+  background: #f7f9fc;
+}
+.logoandname {
+  display: flex;
+  align-items: center;
+  font-family: "DM Sans";
+  font-size: 12.12px;
+  font-weight: 500;
+  line-height: 16.16px;
+  /* text-align: left; */
+}
+.logoandname img {
+  margin-right: 1rem;
+}
+.educationtitle {
+  font-family: "DM Sans";
+  font-size: 14.14px;
+  font-weight: 500;
+  line-height: 18.18px;
+  text-align: left;
+}
+
+.skillstitle {
+  font-family: "Outfit";
+  font-size: 24.24px;
+  font-weight: 500;
+  line-height: 32.32px;
+  letter-spacing: 0.01em;
+  text-align: left;
+
+  margin: 2rem 0;
+}
+.designtitle {
+  width: Fixed (113.13px) px;
+  height: Fill (83.65px) px;
+  padding: 16.16px 0px 16.16px 0px;
+  gap: 8.08px;
+  border-radius: 8.08px 0px 0px 0px;
+  opacity: 0px;
+  font-family: DM Sans;
+  font-size: 14.14px;
+  font-weight: 500;
+  line-height: 18.18px;
+  text-align: left;
+  margin-right: 2rem;
+}
+
+.design {
+  display: flex;
+  align-items: center;
+}
+.designskills {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.eachskill {
+  width: 30%;
+  height: 5rem;
+  margin: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 16.16px 0px 0px 0px;
+  gap: 4px;
+  opacity: 0px;
+  background: #f7f9fc;
+}
+.eachskill h1 {
+  font-family: "DM Sans";
+  font-size: 14.14px;
+  font-weight: 500;
+  line-height: 18.18px;
+  text-align: center;
+  background: #9251f7;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.developement {
+  margin: 1rem 0;
+}
+.Tools {
+  display: flex;
+  flex-wrap: wrap;
+}
+.eachtool {
+  padding: 1rem 1rem;
+  width: 20%;
+}
+.eachtool .desciption h1 {
+  font-family: "DM Sans";
+  font-size: 14.14px;
+  font-weight: 500;
+  line-height: 18.18px;
+  text-align: left;
+}
+.eachtool .desciption p {
+  font-family: DM Sans;
+  font-size: 10.1px;
+  font-weight: 400;
+  line-height: 13.15px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.toottitle {
+  padding: 1rem 0;
+}
+.saidby {
+  font-family: "DM Sans";
+  font-size: 12.12px;
+  font-weight: 400;
+  line-height: 16.16px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  background: #79819a;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 2rem;
+}
+
+
+
+li::marker {
+  color: #9251f7;
+}
+@media (max-width: 767px) {
+  body {
+    width: 100%;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .left_box {
+    width: 100%;
+  }
+  .right_box {
+    width: 100%;
+   
+  }
+  .quotation {
+    align-items: center;
+
+    width: 100%;
+  }
+  .contact {
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* align-items: center; */
+    /* background-color: red; */
+  }
+  .individual_contact {
+ 
+    width: 50%;
+    align-items: center;
+    padding: 0 0.5rem;
+    padding-right: rem;
+    margin: 24px 0;
+    overflow: hidden;
+  }
+  .scrollable {
+    padding: 0 24px;
+
+    width: 100%;
+  }
+  .right_box {
+    width: 100%;
+    padding: 3.7% 5%;
+  
+    display: flex;
+    flex-direction: column;
+
+  }
+  .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    padding: 2% 0;
+  }
+  .firstproject {
+    background-color: #f7f9fc;
+    padding: 24px 24px;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .secondProject {
+   
+    margin-left: 0px;
+  }
+  .Education {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .academy {
+    width: 100%;
+    margin: 1rem 1rem;
+  
+    background: #f7f9fc;
+  }
+  .designskills {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .design {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .eachskill {
+    width: 100%;
+    height: 5rem;
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    padding: 16.16px 0px 0px 0px;
+    gap: 4px;
+    opacity: 0px;
+    background: #f7f9fc;
+  }
+  .eachtool {
+    padding: 1rem 1rem;
+    width: 30%;
+  }
+  .Tools {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .indiviualexperience {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+  }
+  .expdescription{
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 767px) { 
+}
